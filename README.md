@@ -44,4 +44,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## TODO
 - [X] Project Carousel
-- [ ] Resume size based on screen size
+- [X] Resume size based on screen size

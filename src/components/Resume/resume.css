@@ -23,6 +23,19 @@
 
 .resumeFrame {
   width: 70vw;
-  height: 100vh; 
+  height: 80vh; 
+  max-height: 60rem;
   margin: 0 auto;
+}
+
+@media screen and (max-width:620px) {
+  .resumeFrame {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .resumeFrame {
+    height: 30vh;
+  }
 }
