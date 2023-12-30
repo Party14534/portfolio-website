@@ -15,8 +15,8 @@ const Intro = () => {
         </span>
         <p className='introPara'>I am a skilled programmer with lots of experience developing web<br/> 
                                   and desktop apps on Windows, Linux, and Mac</p>
-        <Link>
-          <button className='btn'>
+        <Link to=''>
+          <button className='btn' onClick={() => {window.open('https://github.com/Party14534?tab=repositories', '_blank');}}>
             <img src={btnImage} alt='Github Icon' className='btnImg'/> My Projects
           </button>
         </Link>

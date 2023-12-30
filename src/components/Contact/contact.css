@@ -64,8 +64,18 @@
   display: flex;
 }
 
+.linkContainer:hover {
+  cursor: pointer;
+}
+
 .link {
   object-fit: contain;
   width: 75%;
   height: 75%;
+}
+
+.emailText {
+  padding-bottom: 1rem;
+  font-size: large;
+  font-weight: 500;
 }
