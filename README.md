@@ -43,5 +43,5 @@ This project is licensed under the [MIT License](LICENSE).
 - Website: [Your Portfolio URL]
 
 ## TODO
-- Project Carousel
-- Resume size based on screen size
+- [X] Project Carousel
+- [ ] Resume size based on screen size
