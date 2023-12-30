@@ -1,0 +1,48 @@
+.carousel {
+  overflow: hidden;
+  height: 60vh;
+  max-height: 50rem;
+  width: 80vw;
+  max-width: 70rem;
+  align-self: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background: rgb(30,30,37);
+  color: white;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background: rgb(30,30,37);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.indicators>button {
+  margin: 0.5rem;
+  border: none;
+  background: rgb(40,40,47);
+  padding: 0 0.5rem;
+  color: white;
+}
+
+.indicators>button.active {
+  background: rgb(230, 215, 255);
+  color: rgb(20,20,27);
+}

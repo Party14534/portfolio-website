@@ -41,3 +41,7 @@ This project is licensed under the [MIT License](LICENSE).
 - Email: [Your Email]
 - LinkedIn: [Your LinkedIn Profile]
 - Website: [Your Portfolio URL]
+
+## TODO
+- Project Carousel
+- Resume size based on screen size

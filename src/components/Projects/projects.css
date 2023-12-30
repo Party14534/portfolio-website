@@ -1,0 +1,96 @@
+#projects {
+  width: 70vw;
+  max-width: 60rem;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.projectsDesc {
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.projectItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.projectImg {
+  object-fit: cover;
+  width: 60%;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.projectText {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: clip;
+  white-space: normal;
+}
+
+.projectDesc {
+  height: 50%;
+  width: 100%;
+  font-size: 2vw;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectTitle {
+  width: 100%;
+  height: 50%;
+  font-size: 3vw;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:800px) {
+  .projectDesc {
+    font-size: 3vw;
+  }
+  .projectTitle {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width:620px) {
+  .projectDesc {
+    font-size: 3.5vw;
+  }
+  .projectTitle {
+    font-size: 5vw;
+  }
+}
