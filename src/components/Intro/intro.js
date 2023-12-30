@@ -7,6 +7,9 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id='intro'>
+      <div className='bgContainer'>
+        <img src={bg} alt='Profile' className='bg'></img>
+      </div>
       <div className='introContent'>
         <span className='hello'>Hello, </span>
         <span className='introText'>
@@ -21,7 +24,6 @@ const Intro = () => {
           </button>
         </Link>
       </div>
-      <img src={bg} alt='Profile' className='bg'></img>
     </section>
   )
 }
