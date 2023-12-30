@@ -46,3 +46,15 @@
   background: rgb(230, 215, 255);
   color: rgb(20,20,27);
 }
+
+@media screen and (max-width:620px) {
+  .carousel-item {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .carousel-item {
+    height: 30vh;
+  }
+}
