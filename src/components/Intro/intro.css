@@ -48,6 +48,7 @@
   font-weight: 300;
   letter-spacing: 1px;
   text-align: left;
+  max-width: 35rem;
 }
 
 .btn  {

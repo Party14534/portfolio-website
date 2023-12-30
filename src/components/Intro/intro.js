@@ -13,7 +13,7 @@ const Intro = () => {
           I'm 
           <span className='introName'> Zach</span>
         </span>
-        <p className='introPara'>I am a skilled programmer with lots of experience developing web<br/> 
+        <p className='introPara'>I am a skilled programmer with lots of experience developing web
                                   and desktop apps on Windows, Linux, and Mac</p>
         <Link to=''>
           <button className='btn' onClick={() => {window.open('https://github.com/Party14534?tab=repositories', '_blank');}}>
