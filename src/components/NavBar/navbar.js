@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import icon from '../../assets/icon.ico';
+import icon from '../../assets/catIcon.png';
 import contactImage from '../../assets/emailIcon.png'
 import menu from '../../assets/menuIcon.png'
 import "./navbar.css"
@@ -14,8 +14,10 @@ const  Navbar = () => {
       <div className="desktopMenu">
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}
           className="desktopMenuListItem">Home</Link>
+        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500}
+          className="desktopMenuListItem">Projects</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}
-          className="desktopMenuListItem">About</Link>
+          className="desktopMenuListItem">Skills</Link>
         <Link activeClass='active' to='resume' spy={true} smooth={true} offset={-100} duration={500}
           className="desktopMenuListItem">Resume</Link>
       </div>
