@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   align-self: center;
+  border: none;
 }
 
 .resumeTitle {
@@ -26,6 +27,7 @@
   height: 80vh; 
   max-height: 60rem;
   margin: 0 auto;
+  border: none;
 }
 
 @media screen and (max-width:620px) {

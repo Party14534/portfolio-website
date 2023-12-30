@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   height: 50vh;
-  background: rgb(30,30,37);
+  background: rgb(40,40,47);
   color: white;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   border: none;
-  background: rgb(30,30,37);
+  background: rgb(40,40,47);
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
@@ -37,7 +37,7 @@
 .indicators>button {
   margin: 0.5rem;
   border: none;
-  background: rgb(40,40,47);
+  background: rgb(50,50,57);
   padding: 0 0.5rem;
   color: white;
 }
