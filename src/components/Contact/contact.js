@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
-import ghIcon from '../../assets/githubIcon.png';
+import ghIcon from '../../assets/githubIconLight.png';
 import linkedInIcon from '../../assets/linkedinIcon.png';
 import indeedIcon from '../../assets/indeedIcon.png'
 

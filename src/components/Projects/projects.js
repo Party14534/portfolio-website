@@ -37,7 +37,7 @@ const Projects = () => {
               <img src={pingImg} alt='Network Tester' className='projectImg'></img>
               <div className='projectText'>
                 <h2 className='projectTitle'>Network Packet Loss Analyzer</h2>
-                <p className='projectDesc'>I created an end-to-end network analyzer to test VCU's Wi-fi network for packet loss in Java and C.</p>
+                <p className='projectDesc'>I created an end-to-end network analyzer to test VCU's Wi-fi network for packet loss in Java and C</p>
               </div>
             </div>
           </CarouselItem>
