@@ -45,3 +45,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## TODO
 - [X] Project Carousel
 - [X] Resume size based on screen size
+- [X] Add 'About Me' section
+- [X] Center Nav text
