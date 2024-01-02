@@ -21,7 +21,7 @@ const AboutMe = () => {
         <span className='aboutmeDesc'>
           Outside of school, I prefer to spend my time coding projects that interest me and playing video games. 
           Some projects that I have made are a Wordle inspired web game using javascript, 
-          a messaging app made in the C programming language using C's the built in networking functions, 
+          a messaging app made in the C programming language using C's built in networking functions, 
           and an fully featured Chess game with 4 bots and Stockfish support using C++ and the SFML graphics library.
         </span>
       </div>
