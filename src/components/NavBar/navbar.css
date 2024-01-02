@@ -12,7 +12,19 @@
   z-index: 3;
 }
 
+.navSection {
+  width: auto;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
+  align-self: left;
   object-fit: cover;
   height: 2rem;
   width: 2rem;
@@ -25,7 +37,7 @@
 
 .desktopMenuListItem:hover {
   color: rgb(230, 215, 255);
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.1rem;
   border-bottom: 3px solid rgb(230, 215, 255);
 }
 
@@ -55,7 +67,7 @@
 
 .active {
   color: rgb(230, 215, 255);
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.05rem;
   border-bottom: 3px solid rgb(230, 215, 255);
 }
 
@@ -69,7 +81,7 @@
   padding: 0.5rem;
   height: fit-content;
   min-width: 15rem;
-  background: rgb(40,40,47);
+  background: rgb(30,30,37);
   border-radius: 1rem;
 }
 
@@ -91,6 +103,10 @@
 @media screen and (max-width:720px) {
   .mobMenu {
     display: flex;
+  }
+
+  .navSection {
+    display: none;
   }
 
   .desktopMenu {
